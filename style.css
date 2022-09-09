@@ -1,6 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.navbar-brand {
+    font-weight: 900;
+    font-size: 35px;
+    color: #709775;
+}
 .hero {
     background-color: #709775;
 }
@@ -20,4 +25,13 @@ body {
 .blog-bg {
     background-color: #709775;
     color: #fff;
+}
+.nav-link {
+    color: #709775;
+    font-weight: bold;
+}
+#caravan .card:hover {
+    transform: rotateZ(-1deg) scale(1.01);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
